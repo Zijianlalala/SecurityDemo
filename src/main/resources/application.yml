@@ -1,0 +1,15 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://118.31.17.176:3306/spring_security
+    username: root
+    password: Wzj961127.
+
+
+initialization:
+  file:
+    users: users.json
+    roles: roles.json
+    permissions: permissions.json

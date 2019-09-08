@@ -1,0 +1,53 @@
+[
+  {
+    "name": "ROLE_ADMINISTRATOR",
+    "nickname": "administrator",
+    "description": "system_administrator",
+    "banned": "false",
+    "permissions": [
+      {
+        "resourceId": "user",
+        "resourceName": "user_management",
+        "privileges": {
+          "read": "readUserList",
+          "write": "createUser",
+          "update": "updateUser",
+          "delete": "deleteUser"
+        }
+      },
+      {
+        "resourceId":"school",
+        "resourceName":"school_management",
+        "privileges": {
+          "read": "readSchoolList",
+          "write": "createSchool",
+          "update": "updateSchool",
+          "delete": "deleteSchool"
+        }
+      }
+    ]
+  },
+  {
+    "name": "ROLE_STUDENT",
+    "nickname": "student",
+    "description": "normal_user",
+    "banned": "false",
+    "permissions": [
+      {
+        "resourceId": "user",
+        "resourceName": "user_management",
+        "privileges": {
+          "read": "readUserList",
+          "update": "updateUser"
+        }
+      },
+      {
+        "resourceId":"school",
+        "resourceName":"school_management",
+        "privileges": {
+          "read": "readSchoolList"
+        }
+      }
+    ]
+  }
+]

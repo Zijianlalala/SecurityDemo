@@ -1,4 +1,8 @@
 package com.example.SecurityDemo.repository;
 
-public interface RoleRepository {
+import com.example.SecurityDemo.model.Role;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface RoleRepository extends JpaRepository<Role, String> {
+    Role findByName(String name);
 }

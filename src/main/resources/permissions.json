@@ -1,0 +1,22 @@
+[
+  {
+    "resourceId": "user",
+    "resourceName": "用户管理",
+    "privileges": {
+      "read": "查看用户列表",
+      "write": "新增用户",
+      "update": "修改用户信息",
+      "delete": "删除用户"
+    }
+  },
+  {
+    "resourceId":"school",
+    "resourceName":"学校管理",
+    "privileges": {
+      "read":"查看学校列表",
+      "write":"新建学校",
+      "update":"更新学校信息",
+      "delete":"删除学校"
+    }
+  }
+]

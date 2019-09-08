@@ -9,7 +9,7 @@ import java.util.Map;
 @Data
 public class JsonPermissions {
 
-    private List<SimplePermission> permissons;
+    private List<SimplePermission> permissions;
 
     @Data
     public static class SimplePermission {
