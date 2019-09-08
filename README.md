@@ -1,5 +1,5 @@
 # SecurityDemo
-> 参考了`https://blog.csdn.net/cloume/article/details/83790111`
+> 参考了[基于Spring Security实现权限管理系统](https://blog.csdn.net/cloume/article/details/83790111)
 ## 系统实现步骤
 1. 先定义权限集合`permissions.json`
 2. 创建于权限相关的实体类`JsonPermissions`
